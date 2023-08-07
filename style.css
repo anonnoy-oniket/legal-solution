@@ -48,6 +48,10 @@ body {
     filter: brightness(.5);
 }
 
+.carousel-item > div {
+    top: 50%;
+}
+
 /* -----------------------mobile device syles----------------- */
 @media screen and (max-width: 688px) {
     .banner {
@@ -65,6 +69,18 @@ body {
 
     .w-sm-100 {
         width: 100%;
+    }
+
+    .carousel-item {
+        height: 100vh;
+    }
+
+    .carousel-item > img {
+        height: 100vh;
+    }
+
+    .carousel-item > div {
+        top: 35%;
     }
 
 }
