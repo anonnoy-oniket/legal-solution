@@ -1,0 +1,44 @@
+/* utilities */
+
+body {
+    font-family: EB Garamond;
+}
+
+.btn {
+    font-weight: 500;
+    color: white;
+    background-color: #B68C5A;
+    border: none;    
+}
+
+/* navigation panel */
+
+/* banner styles */
+
+.banner {
+    height: 80vh;
+    background: rgba(0, 0, 0, .5) url(images/banner.png);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.banner > div {
+    width: 50%;
+}
+
+@media screen and (max-width: 688px) {
+    .banner {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .banner > div {
+        width: 80%;
+    }
+
+    .w-sm-25 {
+        width: 25%;
+    }
+
+}
