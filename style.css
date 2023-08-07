@@ -28,6 +28,27 @@ body {
     width: 50%;
 }
 
+/* practice areas */
+
+.w-sm-100 {
+    width: 50%;
+}
+
+.card:hover {
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0.00) 100%);
+}
+
+/* clients feedback */
+
+.carousel-item {
+    height: 90vh;
+}
+
+.carousel-item > img {
+    filter: brightness(.5);
+}
+
+/* -----------------------mobile device syles----------------- */
 @media screen and (max-width: 688px) {
     .banner {
         width: 100vw;
@@ -40,6 +61,10 @@ body {
 
     .w-sm-25 {
         width: 25%;
+    }
+
+    .w-sm-100 {
+        width: 100%;
     }
 
 }
