@@ -92,6 +92,16 @@ body {
     background-color: #F3F3F3;
 }
 
+/* footer styles */
+
+footer {
+    height: 60vh;
+}
+
+footer a {
+    text-decoration: none;
+}
+
 /* -----------------------mobile device syles----------------- */
 @media screen and (max-width: 688px) {
     .banner {
@@ -125,6 +135,13 @@ body {
 
     .w-sm-50 {
         width: 90%;
+    }
+
+    footer {
+        height: auto;
+        padding-bottom: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
 }
