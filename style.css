@@ -10,6 +10,10 @@ body {
     border: none;    
 }
 
+.w-sm-50 {
+    width: 50%;
+}
+
 /* navigation panel */
 
 /* banner styles */
@@ -52,10 +56,6 @@ body {
 
 /* faq section */
 
-.w-sm-50 {
-    width: 50%;
-}
-
 .accordion-button::after {
     background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16"><path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/></svg>');
     transition: all 0.8s;
@@ -75,6 +75,21 @@ body {
 
 .accordion-button:not(.collapsed) {
     box-shadow: none;
+}
+
+/* contact us section */
+
+.contact .card {
+    background-color: #F3F3F3;
+}
+
+.contact .card img {
+    width: 40px;
+    height: 40px;
+}
+
+.form-control {
+    background-color: #F3F3F3;
 }
 
 /* -----------------------mobile device syles----------------- */
